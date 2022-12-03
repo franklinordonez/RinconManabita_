@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RinconManabita.Login"
+             BackgroundColor= "White" >
+    <ContentPage.Content>
+
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+            <Image Source="Logorinconmanabita" WidthRequest="180" HeightRequest="300"/>
+           
+            <Frame BackgroundColor="White"  CornerRadius="0">
+                <Label Text="RINCON MANABITA" HorizontalTextAlignment="Center" TextColor="OrangeRed" FontSize="26"/>
+                
+            </Frame>
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese su Usuario" PlaceholderColor="Gray"/>
+            <Entry x:Name="txtContrasena" Placeholder="Ingrese su Contraseña" PlaceholderColor="Gray" IsPassword="True"/>
+            <Button 
+                x:Name="btnIniciar" Text="INICIAR SESION" 
+                VerticalOptions="Center"
+                TextColor="Black"
+                BackgroundColor="Transparent"
+                BorderColor="ForestGreen"
+                BorderWidth="1.5"
+                Clicked="btnIniciar_Clicked"
+                CornerRadius="50"/>
+                
+            
+            <Label HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Registrar" TextColor="Gray" FontAttributes="Bold" TextDecorations="Underline"/>
+                    </FormattedString>                
+                </Label.FormattedText>
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

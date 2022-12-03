@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RinconManabita.Datos.Dplatos"
+             Title="MENU PLATOS FUERTES">
+    <ContentPage.Content>
+        <ScrollView HeightRequest="3000">
+                <StackLayout VerticalOptions="Center" HorizontalOptions="Center">                
+                <Image Source="Pescado" WidthRequest="500" HeightRequest="480"/>
+                <Label Text="Pescado" HorizontalTextAlignment="Center" TextColor="Black" FontSize="46"/>
+                <Frame Grid.Column="0" Grid.Row="3" Padding="0" Margin="12" CornerRadius="12" BackgroundColor="Orange"/>
+                <Button TextColor="Blue" FontSize="38" VerticalOptions="Fill" Text="7"/>
+                <Image Source="Chuletadecerdo" WidthRequest="500" HeightRequest="480"/>
+                <Label Text="Chuleta" HorizontalTextAlignment="Center" TextColor="Black" FontSize="46"/>
+                <Frame Grid.Column="0" Grid.Row="3" Padding="0" Margin="12" CornerRadius="12" BackgroundColor="Orange"/>
+                <Button TextColor="Blue" FontSize="38" VerticalOptions="Fill" Text="4"/>
+                <Image Source="Encebollado" WidthRequest="500" HeightRequest="480"/>
+                <Label Text="Encevollado" HorizontalTextAlignment="Center" TextColor="Black" FontSize="46"/>
+                <Frame Grid.Column="0" Grid.Row="3" Padding="0" Margin="12" CornerRadius="12" BackgroundColor="Orange"/>
+                <Button TextColor="Blue" FontSize="38" VerticalOptions="Fill" Text="3"/>
+                <Image Source="Caldodemanguera" WidthRequest="500" HeightRequest="480"/>
+                <Label Text="Caldo de Maguera" HorizontalTextAlignment="Center" TextColor="Black" FontSize="46"/>
+                <Frame Grid.Column="0" Grid.Row="3" Padding="0" Margin="12" CornerRadius="12" BackgroundColor="Orange"/>
+                <Button TextColor="Blue" FontSize="38" VerticalOptions="Fill" Text="3"/>
+                <Image Source="Guatita" WidthRequest="500" HeightRequest="480"/>
+                <Label Text="Guatita" HorizontalTextAlignment="Center" TextColor="Black" FontSize="46"/>
+                <Frame Grid.Column="0" Grid.Row="3" Padding="0" Margin="12" CornerRadius="12" BackgroundColor="Orange"/>
+                <Button TextColor="Blue" FontSize="38" VerticalOptions="Fill" Text="3"/>
+                <Image Source="Arrozmarinero" WidthRequest="500" HeightRequest="480"/>
+                <Label Text="Arros Marinero" HorizontalTextAlignment="Center" TextColor="Black" FontSize="46"/>
+                <Frame Grid.Column="0" Grid.Row="3" Padding="0" Margin="12" CornerRadius="12" BackgroundColor="Orange"/>
+                <Button TextColor="Blue" FontSize="38" VerticalOptions="Fill" Text="8"/>
+
+                <Button x:Name="btnbebidas" Text="Mostrar Bebidas" Clicked="btnbebidas_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

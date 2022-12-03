@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RinconManabita.Datos.Dbebidas"
+             Title="MENU BEBIDAS" >
+             
+    <ContentPage.Content>
+        <ScrollView HeightRequest="3000">
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                           
+            <Image Source="Cocacola" WidthRequest="500" HeightRequest="480"/>
+            <Label Text="Cola" HorizontalTextAlignment="Center" TextColor="Black" FontSize="46"/>
+            <Frame Grid.Column="0" Grid.Row="3" Padding="0" Margin="12" CornerRadius="12" BackgroundColor="Orange"/>
+            <Button TextColor="Blue" FontSize="38" VerticalOptions="Fill" Text=" 1 Dolar"/>
+            <Image Source="Guanabana" WidthRequest="500" HeightRequest="480"/>
+            <Label Text="Guanabana" HorizontalTextAlignment="Center" TextColor="Black" FontSize="46"/>
+            <Frame Grid.Column="0" Grid.Row="3" Padding="0" Margin="12" CornerRadius="12" BackgroundColor="Orange"/>
+            <Button TextColor="Blue" FontSize="38" VerticalOptions="Fill" Text="4"/>
+            <Image Source="Limonada" WidthRequest="500" HeightRequest="480"/>
+            <Label Text="Limonada" HorizontalTextAlignment="Center" TextColor="Black" FontSize="46"/>
+            <Frame Grid.Column="0" Grid.Row="3" Padding="0" Margin="12" CornerRadius="12" BackgroundColor="Orange"/>
+            <Button TextColor="Blue" FontSize="38" VerticalOptions="Fill" Text="3"/>
+            <Image Source="Naranjada" WidthRequest="500" HeightRequest="480"/>
+            <Label Text="Naranja" HorizontalTextAlignment="Center" TextColor="Black" FontSize="46"/>
+            <Frame Grid.Column="0" Grid.Row="3" Padding="0" Margin="12" CornerRadius="12" BackgroundColor="Orange"/>
+            <Button TextColor="Blue" FontSize="38" VerticalOptions="Fill" Text="3"/>
+            <Image Source="Paya" WidthRequest="500" HeightRequest="480"/>
+            <Label Text="Papaya" HorizontalTextAlignment="Center" TextColor="Black" FontSize="46"/>
+            <Frame Grid.Column="0" Grid.Row="3" Padding="0" Margin="12" CornerRadius="12" BackgroundColor="Orange"/>
+            <Button TextColor="Blue" FontSize="38" VerticalOptions="Fill" Text="3"/>
+
+                <Button x:Name="btnLocalizacionViewMode" Text="Mostrar Localizacion" Clicked="btnLocalizacionViewMode_Clicked"/>
+
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
